@@ -3,7 +3,7 @@
         <img src="@/assets/LOGO ORIGINAL.png" alt="Imagem" style="height: 50px;">
         <div>Fut Analises</div>
         <div id="entrar-login">
-            <a href="index.html">Entrar</a>
+            <a>Entrar</a>
         </div>
   </header>
 </template>
@@ -30,12 +30,6 @@ body {
     list-style-type: none;
     width: 100vw;
     font-size: 18px;
-}
-
-body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10vh 80vh 10vh;
 }
 
 #header {

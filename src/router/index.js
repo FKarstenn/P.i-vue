@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeAskon from "@/views/HomeView.vue";
 import LoginFut from "@/views/LoginFut.vue";
+import RegistroFut from "@/views/RegistroFut";
  
 Vue.use(VueRouter);
 
@@ -26,6 +27,10 @@ const routes = [
           path: "/login",
           component: LoginFut,
         },
+        {
+        path: "/registro",
+        component: RegistroFut,
+        }
         
       ],
   },

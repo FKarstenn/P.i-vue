@@ -47,5 +47,124 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #323232;
+  border: none;
+}
 
+input,
+label {
+  display: block;
+  outline: none;
+  width: 100%;
+}
+
+a {
+ color: black;
+ color: inherit;
+ text-decoration: inherit;
+  
+}
+
+
+
+
+body {
+  padding-top: 5vh;
+  background-image: url('@/assets/backgroundregister.jpg');
+  background-size: cover;
+  background-position-y: -150px;
+}
+
+
+#main-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+#main-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.full-box {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.half-box {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.spacing {
+  margin-right: 2.5%;
+}
+
+label {
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+
+
+#submit {
+  padding: 10px;
+  text-align: center;
+  background-color: blue;
+  color: #FFF;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: green;
+  transition: .5s;}
+
+
+#agreement {
+  margin-right: 5px;
+}
+
+#agreement,
+#agreement-label {
+  display: inline-block;
+  width: auto;
+}
+
+
+
+.error-validation {
+  color: #ff1a1a;
+  position: absolute;
+  top: 57px;
+  font-size: 12px;
+}
+
+.template {
+  display: none;
+}
 </style>
